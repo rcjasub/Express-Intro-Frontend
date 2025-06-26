@@ -21,7 +21,7 @@ const App = () => {
 
   useEffect(() => {
     fetchAllTasks();
-  }, []);
+  }, []); 
 
   return (
     <div>
