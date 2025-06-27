@@ -9,7 +9,7 @@ const AddTask = ({ setNavBarSetting, fetchAllTasks }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post("https://express-intro-starting-point-fvimqno6j.vercel.app/", {
+      await axios.post("http://localhost:8080/api/tasks", {
         title,
         description,
       });
