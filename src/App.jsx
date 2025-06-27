@@ -12,7 +12,7 @@ const App = () => {
 
   async function fetchAllTasks() {
     try {
-      const response = await axios.get("https://express-intro-starting-point-fvimqno6j.vercel.app/api/tasks");
+      const response = await axios.get("https://express-intro-starting-point-fvimqno6j.vercel.app/");
       setTasks(response.data);
     } catch (error) {
       console.error("Error fetching tasks:", error);
